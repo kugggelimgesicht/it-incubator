@@ -1,7 +1,29 @@
-.someClass {
+.addBtn{
+  background-color: rgb(37, 214, 21); 
+  border-radius: 5px;
+  color:white;
+    width: 50px;
+    margin: 5px;
+    outline: none;
+}
+.addBtn:hover{
+    background-color: rgb(6, 173, 6);
+}
 
+.userInput, .error{
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    margin:5px;
+    outline: none;
 }
 
 .error {
-    border: 1px solid red;
+    border-bottom: 2px solid red;
+    
+    
+}
+.infoDiv{
+    margin-left:20px; 
+    color:red 
 }
